@@ -24,6 +24,10 @@ namespace TestClass
             DateTime stopDateTime = DateTime.Now;
             Console.WriteLine("Duration without thread: " + (stopDateTime - startDateTime));
 
+            DateTime startDateTimeThread = DateTime.Now;
+            employeePayrollUsingThreads.addEmployeeToPayrollWithThread(employeeDetails);
+            DateTime stopDateTimeThread = DateTime.Now;
+            Console.WriteLine("Duration with thread: " + (stopDateTimeThread - startDateTimeThread));
 
         }
 
