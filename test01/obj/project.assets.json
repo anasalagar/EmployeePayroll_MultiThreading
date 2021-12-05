@@ -1660,15 +1660,6 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XDocument.dll": {}
         }
-      },
-      "MultiThreading/1.0.0": {
-        "type": "project",
-        "compile": {
-          "bin/placeholder/MultiThreading.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/MultiThreading.dll": {}
-        }
       }
     }
   },
@@ -6112,11 +6103,6 @@
         "system.xml.xdocument.4.3.0.nupkg.sha512",
         "system.xml.xdocument.nuspec"
       ]
-    },
-    "MultiThreading/1.0.0": {
-      "type": "project",
-      "path": "../MultiThreading/MultiThreading.csproj",
-      "msbuildProject": "../MultiThreading/MultiThreading.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -6124,7 +6110,6 @@
       "MSTest.TestAdapter >= 2.2.3",
       "MSTest.TestFramework >= 2.2.3",
       "Microsoft.NET.Test.Sdk >= 16.9.4",
-      "MultiThreading >= 1.0.0",
       "coverlet.collector >= 3.0.2"
     ]
   },
@@ -6154,11 +6139,7 @@
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
-          "projectReferences": {
-            "C:\\Users\\asala\\source\\repos\\MultiThreading\\MultiThreading\\MultiThreading.csproj": {
-              "projectPath": "C:\\Users\\asala\\source\\repos\\MultiThreading\\MultiThreading\\MultiThreading.csproj"
-            }
-          }
+          "projectReferences": {}
         }
       },
       "warningProperties": {
